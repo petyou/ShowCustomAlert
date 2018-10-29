@@ -1,4 +1,4 @@
-##前言
+### 前言
 每一个app少不了需要以自定义弹窗的方式展示一些视图, 比如从app底部弹出自定义的分享视图, 或者在app中间弹出一个自定义的alert视图. 此时如果没有细致处理的话, app可能会遭遇一些尴尬, 比如类似从app底部弹出视图可能会这样:
 ![Keep点击邀请好友后再点击返回](https://upload-images.jianshu.io/upload_images/4103407-c9684b0d29c5fe51.gif?imageMogr2/auto-orient/strip)
 而类似从app中间弹出alert可能会这样: 
