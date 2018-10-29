@@ -1,10 +1,11 @@
 ### 前言
-每一个app少不了需要以自定义弹窗的方式展示一些视图, 比如从app底部弹出自定义的分享视图, 或者在app中间弹出一个自定义的alert视图. 此时如果没有细致处理的话, app可能会遭遇一些尴尬, 比如类似从app底部弹出视图可能会这样:
-![Keep点击邀请好友后再点击返回](https://upload-images.jianshu.io/upload_images/4103407-c9684b0d29c5fe51.gif?imageMogr2/auto-orient/strip)
-而类似从app中间弹出alert可能会这样: 
-![键盘被弹窗遮住.gif](https://upload-images.jianshu.io/upload_images/4103407-681a5e8bef6cb621.gif?imageMogr2/auto-orient/strip)
-也可能没有实现自动隐藏和呼出键盘功能. 像这样
-![自动收起和呼出键盘.gif](https://upload-images.jianshu.io/upload_images/4103407-b1c87687f8506ca2.gif?imageMogr2/auto-orient/strip)
+每一个app少不了需要以自定义弹窗的方式展示一些视图, 比如从app底部弹出自定义的分享视图, 或者在app中间弹出一个自定义的alert视图. 此时如果没有细致处理的话, app可能会遭遇一些尴尬. 
+比如类似从app底部弹出视图可能会这样:  ![Keep点击邀请好友后再点击返回](https://upload-images.jianshu.io/upload_images/4103407-c9684b0d29c5fe51.gif?imageMogr2/auto-orient/strip)  
+
+而类似从app中间弹出alert可能会这样:![键盘被弹窗遮住.gif](https://upload-images.jianshu.io/upload_images/4103407-681a5e8bef6cb621.gif?imageMogr2/auto-orient/strip)  
+
+也可能没有实现自动隐藏和呼出键盘功能. 像这样![自动收起和呼出键盘.gif](https://upload-images.jianshu.io/upload_images/4103407-b1c87687f8506ca2.gif?imageMogr2/auto-orient/strip)  
+
 为了统一解决这个问题, 建议一个app使用统一的接口用于弹出自定义的视图. 且在这个接口中处理好这些潜在的问题.  
 
 
